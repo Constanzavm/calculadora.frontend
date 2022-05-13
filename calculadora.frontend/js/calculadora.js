@@ -27,19 +27,19 @@ function cuatro(){
     document.Calculadora.ans.value+='4'
 }
 
-function siete(){
+function tres(){
     document.Calculadora.ans.value+='3'
 }
 
-function siete(){
+function dos(){
     document.Calculadora.ans.value+='2'
 }
 
-function siete(){
+function uno(){
     document.Calculadora.ans.value+='1'
 }
 
-function siete(){
+function cero(){
     document.Calculadora.ans.value+='0'
 }
 
