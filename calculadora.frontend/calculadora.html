@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="/css/css.css">
+    <script src="/js/calculadora.js"></script>
 
 </head>
 <body>
@@ -15,28 +16,28 @@
 
             <br>
 
-            <input type="button" value="7" id="7">
-            <input type="button" value="8" id="8">
-            <input type="button" value="9" id="9">
-            <input type="button" value="+" id="+">
+            <input type="button" value="7" onclick="siete()">
+            <input type="button" value="8" onclick="ocho()">
+            <input type="button" value="9" onclick="nueve()">
+            <input type="button" value="+" onclick="document.Calculadora.ans.value+='+'">
 
             <br>
 
-            <input type="button" value="4" id="4">
-            <input type="button" value="5" id="5">
-            <input type="button" value="6" id="6">
-            <input type="button" value="-" id="-">
+            <input type="button" value="4" onclick="cuatro()">
+            <input type="button" value="5" onclick="cinco()">
+            <input type="button" value="6" onclick="seis()">
+            <input type="button" value="-" onclick="document.Calculadora.ans.value+='-'">
 
             <br>
 
-            <input type="button" value="1" onclick="document.Calculadora.ans.value+='1'">
-            <input type="button" value="2" onclick="document.Calculadora.ans.value+='2'">
-            <input type="button" value="3" onclick="document.Calculadora.ans.value+='3'">
+            <input type="button" value="1" onclick="uno()">
+            <input type="button" value="2" onclick="dos()">
+            <input type="button" value="3" onclick="tres()">
             <input type="button" value="*" onclick="document.Calculadora.ans.value+='*'">
 
             <br>
 
-            <input type="button" value="0" onclick="document.Calculadora.ans.value+='0'">
+            <input type="button" value="0" onclick="cero()">
             <input type="reset" value="C">
             <input type="button" value="=" onclick="document.Calculadora.ans.value=eval(document.Calculadora.ans.value)">
             <input type="button" value="/" onclick="document.Calculadora.ans.value+='/'">
@@ -44,6 +45,6 @@
         </form>
 
     </div>
-    <script src="/javascript/funciones.js" type="text/javascript"></script>
+    <script src="/js/calculadora.js"></script>
 </body>
 </html>
