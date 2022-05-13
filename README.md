@@ -1,5 +1,9 @@
 # calculadora.frontend
 
+https://github.com/Constanzavm/calculadora.frontend
+
+Porfa no aprete los comandos de operacion más de una vez o explota.
+
 
 Integrantes:
 
